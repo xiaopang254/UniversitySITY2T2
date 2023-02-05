@@ -1,5 +1,5 @@
 // https://docs.m5stack.com/en/quick_start/m5stickc_plus/arduino
-// 2100582 Lau Jun Xiang
+// 2100582 Lau Jun Xiang P4 CSC2006
 #include <WiFi.h>
 #include <WebServer.h>
 #include <M5StickCPlus.h>
@@ -232,8 +232,6 @@ bool readSensors() {
   Serial.println(accelY);
   Serial.print("Accel[Z]: ");
   Serial.println(accelZ);
-
-
 
   return status;
 }

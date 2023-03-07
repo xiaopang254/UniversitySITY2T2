@@ -21,6 +21,12 @@ To check your list of pip installations:
 pip list
 ```
 
+Installing from Requirements
+```
+pip install -r requirements.txt
+```
+
+
 Your pip should be empty if you have activate it properly for the first time!
 
 ```
